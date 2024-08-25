@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Store Page</title>
+  <style>
+    body {
+      background-color: rgb(107, 235, 90);
+      background-image: url("images/Fondo.jpg");
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    #mainheader {
+      background-color: #14ec14;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
+    header nav img {
+      height: 55px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    main {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .product-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      max-width: 1000px;
+      text-align: center;
+    }
+
+    .product-section img {
+      width: 300px;
+      height: auto;
+      margin: 0 20px;
+    }
+
+    .product-section:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .product-description {
+      max-width: 500px;
+    }
+
+    footer {
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    footer p,
+    footer small {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header id="mainheader">
+    <nav><img src="images/LogoA.png" alt="Logo" /></nav>
+  </header>
+  <div class="container">
+    <main>
+      <article>
+        <h1 style="color: #19640a;">Productos de Duolingo</h1>
+        <div class="product-section">
+          <img src="Images/Peluche.jpg" alt="Peluche" />
+          <div class="product-description">
+            <h2>Peluche Duolingo</h2>
+            <p>El peluche de Duolingo es suave, adorable y perfecto para los fanáticos del famoso búho.
+                Con su diseño encantador y detalles cuidadosos, este peluche es ideal para decorar tu espacio de estudio o 
+                acompañarte mientras aprendes.</p>
+            <p><strong>Precio: $67.00</strong></p>
+          </div>
+        </div>
+        <div class="product-section">
+          <img src="Images/Cartuchera.jpg" alt="Cartuchera" />
+          <div class="product-description">
+            <h2>Cartuchera Duolingo</h2>
+            <p>La cartuchera de Duolingo es práctica, colorida y con un diseño inspirado en el famoso búho.
+                Perfecta para organizar tus útiles escolares con estilo.</p>
+            <p><strong>Precio: $12.00</strong></p>
+          </div>
+        </div>
+        <div class="product-section">
+          <img src="images/Camiseta.jpg" alt="Camiseta" />
+          <div class="product-description">
+            <h2>Camiseta Duolingo</h2>
+            <p>La camiseta de Duolingo combina comodidad y estilo con un diseño divertido del icónico búho.
+                Ideal para los amantes del aprendizaje y la moda.</p>
+            <p><strong>Precio: $25.00</strong></p>
+          </div>
+        </div>
+        <div class="product-section">
+          <img src="Images/LLavero.jpg" alt="Llavero" />
+          <div class="product-description">
+            <h2>Llavero Duolingo</h2>
+            <p>
+                El llavero de Duolingo es compacto y adorable, con el icónico búho en un diseño encantador.
+                Ideal para mantener tus llaves organizadas y mostrar tu entusiasmo por el aprendizaje.</p>
+            <p><strong>Precio: $5.00</strong></p>
+          </div>
+        </div>
+        <div class="product-section">
+          <img src="Images/Sombrero.jpg" alt="Sombrero" />
+          <div class="product-description">
+            <h2>Sombrero Duolingo</h2>
+            <p>El sombrero de Duolingo es moderno y divertido, con el distintivo búho en un diseño atractivo.
+                Perfecto para mostrar tu amor por el aprendizaje y mantenerte a la moda.</p>
+            <p><strong>Precio: $18.00</strong></p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </div>
+  <footer>
+    <p>Nuestro correo es<address>Duolingo Store - Green Owl Avenue 123 Pittsburgh, PA, USA</address></p>
+    <small>2024 Duolingo Store - All rights reserved</small>
+  </footer>
+</body>
+</html>
